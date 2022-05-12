@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 读村上春树的跑步
-tags: 读后感
+tags: reading
 excerpt_separator: <!--more-->
 comments: true
 sticky: false

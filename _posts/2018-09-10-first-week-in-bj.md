@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 初到北京的一周半
-tags: beijing travel
+tags: beijing life
 excerpt_separator: <!--more-->
 comments: true
 sticky: false

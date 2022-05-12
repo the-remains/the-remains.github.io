@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fight For Liberty
-tags: 读后感
+tags: reading
 excerpt_separator: <!--more-->
 comments: true
 sticky: false

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 读《追风筝的人》
-tags: 读后感
+tags: reading
 excerpt_separator: <!--more-->
 comments: true
 sticky: false
