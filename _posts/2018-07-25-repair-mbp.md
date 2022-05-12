@@ -8,11 +8,9 @@ sticky: false
 hidden: false
 ---
 
-![Apple Store 广州天环广场店](/assets/images/2018-07-25/1.jpeg)
-_Apple Store 广州天环广场店_
-
 ## 前言
 早些时间，就发现MacBook的屏幕上出现了一些无法擦除的痕迹。虽然在屏幕亮起的时候，不会影响使用。但当熄屏或者屏幕出现较暗的背景时，比如写代码时……这些痕迹就显得十分明显，碍眼，严重降低用户体验。<!--more-->
+
 
 ![MacBook Retina 屏幕通病 —— 涂层脱落](/assets/images/2018-07-25/2.jpeg)
 _MacBook Retina 屏幕通病 —— 涂层脱落_
@@ -28,6 +26,9 @@ _MacBook Retina 屏幕通病 —— 涂层脱落_
 下面，将对我本次的维修之旅各个步骤中的关键点进行简单描述。本文主要起记录作用，情况为本人个例，未验证普适性，后来参考者请自行斟酌取舍。
 
 ----
+
+![Apple Store 广州天环广场店](/assets/images/2018-07-25/1.jpeg)
+_Apple Store 广州天环广场店_
 
 ## 电话预约
 
