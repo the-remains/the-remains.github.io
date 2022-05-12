@@ -95,7 +95,7 @@ Check out tale on [GitHub](https://github.com/chesterhow/tale).
 _This is an image with a caption_
 {% endhighlight %}
 
-![Image with caption](/assets/images/20170316/fig1.png)
+![Image with caption](/assets/images/2017-03-16/fig1.png)
 _This is an image with a caption_
 
 # Code and Syntax Highlighting
