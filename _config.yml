@@ -1,0 +1,48 @@
+# Site settings
+title:          THE REMAINS
+description:    "A place to record my story"
+url:            "https://the-remains.github.io"
+
+# Google Analytics
+google_analytics: 
+
+# Author
+author:
+  name:         Donald
+  url:          https://the-remains.github.io
+  email:        srioa@pm.me
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Giscus
+giscus:
+  repo: 'the-remains/the-remains.github.io'
+  repo_id: 'R_kgDOHUv-jQ'
+  category: 'General'
+  category_id: 'DIC_kwDOHUv-jc4CPESc'
+  mapping: 'pathname'
+  input_position: 'top'
+  theme: 'light'
+  lang: "en"

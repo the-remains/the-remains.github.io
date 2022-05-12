@@ -1,0 +1,36 @@
+---
+layout: default
+title: "Archive"
+permalink: /archive/
+---
+
+<div class="tags">
+    <div class="tags-header">
+        <h2 class="tags-header-title">{{ page.title }}</h2>
+        <div class="tags-header-line"></div>
+    </div>
+    {% for post in site.posts %}
+        {% capture currentyear %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% if currentyear != year %}
+        {% unless forloop.first %}
+        <!-- </ul> -->
+        {% endunless %}
+        <h2 class="tags-item-label">{{ currentyear }}</h2>
+        <!-- <ul class="post-archive"> -->
+            {% capture year %}{{ currentyear }}{% endcapture %}
+            {% endif %}
+            
+            <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
+                <div>
+                    <span class="tags-post-title">{{ post.title }}</span>
+                    <div class="tags-post-line"></div>
+                </div>
+                <span class="tags-post-meta">
+                    <time datetime="{{ post.date }}">
+                        {{ post.date | date:"%Y-%m-%d" }}
+                    </time>
+                </span>
+            </a>
+        
+    {% endfor %}
+</div>
