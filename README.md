@@ -1,4 +1,4 @@
-# BIFID LIFE
+# THE REMAINS
 
 This is a repository of a personal blog, built with Jekyll using the [Tale](https://github.com/chesterhow/tale) theme.
 
