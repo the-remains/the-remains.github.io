@@ -6,6 +6,7 @@ excerpt_separator: <!--more-->
 comments: true
 sticky: false
 hidden: false
+toc: true
 ---
 
 我于8月29日晚上抵达北京，不知不觉中，在北京已经生活了10来天了。没有想象中的不堪，也没啥特别的惊喜。 <!--more-->

@@ -27,6 +27,11 @@
     width: 4rem;
   }
 
+  &-toc {
+    border-bottom: .5px solid $grey-2;
+    margin: 1rem 0;
+  }
+
   p {
     margin: 0 0 1rem;
     text-align: justify;
