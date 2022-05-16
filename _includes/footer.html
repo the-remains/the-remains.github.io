@@ -2,4 +2,15 @@
   <span>
     &copy; 2015-<time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> <a href="{{ site.baseurl }}"> {{ site.title }} </a>. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
   </span>
+
+  {% if jekyll.environment == 'production' %}
+  <div>
+    <a href="https://hits.seeyoufarm.com">
+      <img
+        src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fthe-remains.github.io&count_bg=%23D3CFCF&title_bg=%23353535&icon=&icon_color=%23C01515&title=Today%27s+%2F+All+Visits&edge_flat=true"
+        style="margin: 0.5em auto;">
+    </a>
+  </div>
+  {% endif %}
+
 </footer>
