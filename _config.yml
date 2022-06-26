@@ -38,10 +38,10 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Giscus
 giscus:
-  repo: 'the-remains/the-remains.github.io'
-  repo_id: 'R_kgDOHUv-jQ'
+  repo: 'the-remains/comments'
+  repo_id: 'R_kgDOHj-n9Q'
   category: 'General'
-  category_id: 'DIC_kwDOHUv-jc4CPESc'
+  category_id: 'DIC_kwDOHj-n9c4CP4kt'
   mapping: 'pathname'
   input_position: 'top'
   theme: 'light'
