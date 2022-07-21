@@ -1,6 +1,7 @@
 <footer>
   <span>
-    &copy; 2015-<time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> <a href="{{ site.baseurl }}"> {{ site.title }} </a>. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+    &copy; 2015-<time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> <a href="{{ site.baseurl }}"> {{ site.title }} </a>. Powered by <a href="https://jekyllrb.com">Jekyll</a> with <a href="https://github.com/chesterhow/tale/">Tale</a>.
+    <br> <div id="last_update"> </div>
   </span>
 
   {% if jekyll.environment == 'production' %}
@@ -12,5 +13,29 @@
     </a>
   </div>
   {% endif %}
+
+  <script type="text/javascript">
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+      if (this.readyState == 4 && this.status == 200) {
+        let repos = JSON.parse(this.responseText);
+        repos.forEach((repo) => {
+          // console.log(repo)
+          if (repo.id == 491519629) {
+            console.log(repo)
+            var lastUpdated = new Date(repo.pushed_at).toLocaleString("en-US", {
+              timeZone: "Australia/Sydney", day: "2-digit", month: "short", year: "numeric",
+              hour: "2-digit", minute: "2-digit", timeZoneName: "short"
+            });
+            document.getElementById("last_update").innerHTML = 'Last updated: ' + lastUpdated
+          }
+        });
+      }
+    };
+    xhttp.open("GET", "https://api.github.com/users/the-remains/repos", true);
+    xhttp.send();
+
+  </script>  
+
 
 </footer>
